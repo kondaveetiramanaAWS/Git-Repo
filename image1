@@ -1,0 +1,5 @@
+FROM ubuntu:16.04
+MAINTAINER Ramana <ramana.awsdev@gmail.com>
+RUN mkdir mynewdir
+RUN touch /mynewdir/mynewfile
+RUN echo 'this is my new container to push to hub' >/mynewdir/mynewfile
